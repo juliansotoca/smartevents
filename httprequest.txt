@@ -1,0 +1,23 @@
+HTTPRequest(
+	protocol='http', 
+	host='localhost:8888', 
+	method='GET', 
+	uri='/events', 
+	version='HTTP/1.1', 
+	remote_ip='10.0.2.2', 
+	headers={
+		'Origin': 'http://localhost:8888', 
+		'Upgrade': 'websocket', 
+		'Accept-Language': 'en-US,en;q=0.5', 
+		'Accept-Encoding': 'gzip, deflate', 
+		'Sec-Websocket-Version': '13', 
+		'Host': 'localhost:8888', 
+		'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 
+		'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:29.0) Gecko/20100101 Firefox/29.0', 
+		'Connection': 'keep-alive, Upgrade', 
+		'Cookie': '_xsrf=2|79f5b8f8|90d30ddf4aa573d23908fc962408669c|1402305432', 
+		'Sec-Websocket-Key': 'rvwX5UR//9P4t5xQa05AZQ==', 
+		'Pragma': 'no-cache', 
+		'Cache-Control': 'no-cache'
+		}
+		)

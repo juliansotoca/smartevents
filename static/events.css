@@ -1,0 +1,339 @@
+/*
+ * Copyright 2009 FriendFeed
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
+
+body {
+  background: white;
+  margin: 10px;
+}
+
+/*body,
+input {
+  font-family: sans-serif;
+  font-size: 10pt;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0;
+}
+
+td {
+  border: 0;
+  padding: 0;
+}
+
+#body {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+*/
+
+#input {
+  margin-top: 0.5em;
+}
+
+.row {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/*#inbox .message {
+  padding-top: 0.25em;
+}*/
+
+/*#nav {
+  float: right;
+  z-index: 99;
+}*/
+
+/*td,th {
+max-width: 50%;
+}*/
+
+.col10table {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+
+tr { 
+display: marker;
+}
+
+table {
+  /*display: table-header-group*/
+}
+
+body {
+  padding-top: 100px;
+}
+
+.footer {
+/*  position: fixed;*/
+  width: 100%;
+/*  margin-top: -80px; */
+  clear:both;
+  /*padding-top:10px;*/
+  /*bottom: 0;*/
+  left: 0;
+  background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+  text-decoration: none solid rgb(153, 153, 153);
+  text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+  color: #999;
+   font-size: 12px;
+} 
+
+#WSLog {
+ background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+ text-decoration: none solid rgb(153, 153, 153);
+  text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+  color: #999;
+   height: 200px;
+
+}
+
+#logTable{
+   font-size: 70%;
+line-height: 90%;
+}
+
+.rowfooter {
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+.stylesuccess {
+	opacity: 0.8;
+	background-color: #5CB85C;
+}
+
+.styleinfo {
+	opacity: 0.8;
+	background-color: #5bc0de;
+}
+
+.stylewarning {
+	opacity: 0.8;
+	background-color: #FFFF66;
+}
+.styledanger {
+	opacity: 0.8;
+	background-color: #d9534f;
+}
+
+/*.tableDiv {
+	position: absolute;
+}*/
+
+
+small, .small {
+	font-size: 70%;
+	line-height:90%;
+}
+
+.domain{
+width: 100px;
+}
+
+.dateTime{
+width: 115px;
+}
+
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td {
+padding: 2px;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+
+line-height: 100%;
+vertical-align: middle;
+}
+
+.navbar-nav>li>a.subnav {
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+font-size: 12px;
+}
+
+ul.subnav {
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+}
+
+/*.subnav {
+display: none
+}*/
+
+input[type="checkbox"].checkbox {
+	display: none;
+	}
+input[type="checkbox"].checkbox + label {
+	top: 2px;
+	display: inline;
+	position: relative;
+	background-color: #D9534F;
+	/*label styling*/
+	padding: 3px 5px;
+	margin: 2px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 14px;
+	color: #ffffff;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+input[type="checkbox"].checkbox:checked + label {
+	background-color: #5CB85C;
+	}
+input[type="checkbox"].checkbox:disabled + label {
+	opacity: 0.5;
+	}
+		
+		
+input[type="radio"].radio {
+	display: none;
+	}
+input[type="radio"].radio + label {
+	display: inline;
+	position: relative;
+	background-color: #D9534F;
+	/*label styling*/
+	padding: 2px 4px;
+	margin: 2px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 14px;
+	color: #ffffff;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+input[type="radio"].radio:checked + label {
+	background-color: #5CB85C;
+	}
+input[type="radio"].radio:disabled + label {
+	opacity: 0.5;
+	}		
+		
+.btn {
+	margin: 2px;
+}
+
+.ctlchekbox.domain{
+	padding-right: 15px;
+}
+
+.dropdown-checkbox .dropdown-checkbox-header {
+min-width: 245px;
+background-color: #3c3c3c;
+padding: 5px 20px;
+-webkit-border-radius: 4px 4px 0px 0px;
+-moz-border-radius: 4px 4px 0px 0px;
+border-radius: 4px 4px 0px 0px;
+}
+
+.multiselect {
+border-top-width: 0px;
+border-bottom-width: 0px;
+margin-bottom: 10px;
+border-left-width: 0px;
+border-right-width: 0px;
+margin-right: 0px;
+padding-left: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 15px;
+height: 30px;
+margin-top: 10px;
+  background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+  text-decoration: none solid rgb(153, 153, 153);
+  text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+   color: #999;
+}
+
+#filters:hover, #filters:focus, #filters:active {
+/*background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);*/
+background-color: #3c3c3c;
+  text-decoration: none solid rgb(153, 153, 153);
+  text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+   color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #3c3c3c;
+border-color: #3c3c3c;
+color: #fff;
+}
+.multiselect-container {
+background-color: black;
+color: white;
+}
+.multiselect-container>label {
+color: white;
+}
+
+.dropdown-menu>li>a {
+display: block;
+padding: 3px 20px;
+clear: both;
+font-weight: 400;
+line-height: 1.42857143;
+color: #fff;
+white-space: nowrap;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+.navbar-form .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+     height: 24px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.sign-in {
+	margin-left:10px;
+}
+
+.form-signin {
+max-width: 330px;
+padding: 15px;
+margin: 0 auto;
+}
+
+.pagination {
+margin: 2px 0;
+}

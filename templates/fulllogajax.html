@@ -1,0 +1,16 @@
+<table class="table table-condensed table-bordered" id='eventTable'>
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Domain</th>
+			<th>Insertion Time</th>
+			<th>Status</th>
+			<th>User</th>
+			<th>Event</th></tr>
+	</thead>
+	<tbody id='eventTableBody'>
+		{% for event in events %}
+			{% include "events.html" %}
+		{% end %}
+	</tbody>
+</table>

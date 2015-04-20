@@ -1,0 +1,8 @@
+<tr id="tr{{ event["id"] }}" class="style{% module linkify(event["criticalness"]) %}">
+	<td><small>{% module linkify(event["id"]) %}</small></td>
+	<td class="domaintd"><small>{% module linkify(event["domain"]) %}</small></td>
+	<td class="dateTime"><small>{% module linkify(event["dateTime"]) %}</small></td>
+	<td class="statustd" id="s{{ event["id"] }}"><small>{% module linkify(event["status"]) %}</small></td>
+	<td id="u{{ event["id"] }}"><small>{% module linkify(event["user"]) %}</small></td>
+	<td id="m{{ event["id"] }}"><small>{% module linkify(event["body"], shorten=True) %}  {% module linkify(event["url"], shorten=True) %}</small></td>
+</tr>

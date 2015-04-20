@@ -1,0 +1,50 @@
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-inbox"></span> Smart Events</a>
+        </div>
+        <div class="collapse navbar navbar-collapse">
+          <ul id='menuoptions' class="nav navbar-nav">
+            <li><a href="/" id='realTime' >Real Time</a></li>
+            <li><a href="/full" id='fulllogLink'>Full log</a></li>
+            <li><a href="#" id='realtimeLinkAjax'>Real Time Ajax</a></li>
+            <li><a href="#" id='fulllogLinkAjax'>Full log Ajax</a></li>
+            <li><a href="/ajax" id='ajax'>ajax</a></li>
+            <li><a href="#Dashboard" id='DashboardLink'>Dashboard</a></li>
+			<li>
+				<select class="multiselect btn dropdown-toggle dropdown btn-sm" id="domainFilters" role="menu" multiple="multiple">
+				</select>
+			</li>
+			<li>
+				<select class="multiselect btn dropdown-toggle dropdown btn-sm" id="statusFilters" role="menu" multiple="multiple">
+					<option value="Open">Open</option>
+					<option value="ACK">ACK</option>
+					<option value="Closed">Closed</option>
+				</select>
+			</li>
+          </ul>
+          <button type="button" id="btnclr" class="btn btn-warning btn-sm logout">Clear</button>
+		  <form action="/auth/logout/" class="navbar-form navbar-right"><button type="button" id="btnlogout" class="btn btn-danger btn-sm logout">Logout</button></form>
+        </div><!--/.nav-collapse -->
+       </div>
+		  <script type="text/javascript">
+			var domains=[];
+			var idDomain=0;
+			
+		  </script>
+			  {% for domain in domains %}
+				{% include "domains.html" %}
+			{% end %}      
+    	<div class="input-group input-group-smn av navbar-nav navbar-left subnav" id="filter">
+  <span class="input-group-addon">Search</span>
+  <input type="text" class="form-control" placeholder="Filter" id="filterImput">
+		</div>
+      
+</div> <!--navbar-->
+    
+    

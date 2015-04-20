@@ -1,0 +1,5 @@
+http://mbed.org/cookbook/Websockets-Server
+http://www.tornadoweb.org/en/branch2.1/websocket.html?highlight=websockethandler#tornado.websocket.WebSocketHandler.write_message
+http://tonygaitatzis.tumblr.com/post/61729708977/websocket-server-with-python-tornado
+https://github.com/hiroakis/tornado-websocket-example/blob/master/app.py
+http://www.tryolabs.com/Blog/2012/06/25/connecting-sql-server-database-python-under-ubuntu/

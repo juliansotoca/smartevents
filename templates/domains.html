@@ -1,0 +1,13 @@
+<!--<li>
+	<input type="checkbox" checked="" class="checkbox domainCB" id="{% module linkify(domain.replace(' ','')) %}"><label for="{% module linkify(domain.replace(' ','')) %}">{% module linkify(domain) %}</label>
+</li>-->
+
+<script type="text/javascript">
+	var dom={};
+	dom={ label: "{% module linkify(domain) %}", value: "{% module linkify(domain.replace(' ','')) %}" };
+	domains.push(dom);
+//	console.log(dom);
+//	console.log(domains);
+	idDomain++;
+	//alert(domains.label)
+</script>
